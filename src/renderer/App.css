@@ -1,0 +1,17 @@
+.overlay-container{
+  background: rgba(0, 0, 0, 0.1); /* Background trong suốt */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  -webkit-app-region: drag; /* Cho phép kéo cửa sổ */
+}
+
+
+.non-draggable {
+  -webkit-app-region: no-drag; /* Ngăn kéo các phần tử con */
+}
